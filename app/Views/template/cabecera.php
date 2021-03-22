@@ -25,6 +25,19 @@
                 <a class="nav-link" href="<?=base_url('crear')?>">Agregar libros</a>
             </li>
         </ul>
+        <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Buscar">
+            <button class="btn btn-outline-info my-2 my-sm-0" type="submit">Buscar</button>
+        </form>
+        <ul class="nav-item dropdown mt-1 text-white">
+        <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Administrar
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Libros</a>
+          <a class="dropdown-item" href="#">Iniciar sesión</a>
+        </div>
+      </ul>
     </div>
     </nav>
     <br>
